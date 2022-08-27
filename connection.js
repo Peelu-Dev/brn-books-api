@@ -2,7 +2,7 @@ const mysql = require('mysql');
 
 var connection = mysql.createConnection({
     port:3306,
-    host:"localhost",
+    host:"0.0.0.0",
     user:'root',
     password:process.env.PASSWORD,
     database:'brnbooks'
