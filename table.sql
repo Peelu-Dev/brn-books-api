@@ -13,6 +13,14 @@ CREATE TABLE book(
     PRIMARY KEY(id)
 );
 
+CREATE TABLE services(
+    id int NOT NULL AUTO_INCREMENT,
+    description TEXT(10000) NOT NULL,
+    title varchar(255) NOT NULL,
+    image varchar(255) NOT NULL,
+    PRIMARY KEY(id)
+);
+
 
 
 
